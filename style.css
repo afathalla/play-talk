@@ -1,0 +1,15 @@
+.content {
+  color: black;
+  font-family: helvetica, arial;
+}
+h1, h2 {
+  color: #58FA58;
+  font-family: Georgia;
+}
+.content::after {
+  position: absolute;
+  right: 12px;
+  bottom: 12px;
+  content: url(Playframework.png);
+}
+
